@@ -1,0 +1,24 @@
+.navbar {
+    background-color: #28a745;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navLinks {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.navLink {
+    text-decoration: none;
+    color: #2c3e50;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.navLink:hover {
+    color: #28a745; /* Changed to green */
+}

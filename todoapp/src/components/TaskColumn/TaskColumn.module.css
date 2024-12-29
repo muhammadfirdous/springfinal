@@ -1,0 +1,29 @@
+.taskCard {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+    transition: transform 0.2s;
+}
+
+.taskCard:hover {
+    transform: translateY(-5px);
+}
+
+.taskTitle {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.taskDescription {
+    font-size: 0.875rem;
+    color: #6c757d;
+}
+
+.taskDueDate {
+    font-size: 0.875rem;
+    color: #28a745; /* Green */
+    margin-top: 0.5rem;
+}

@@ -1,0 +1,22 @@
+.taskBoard {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 240px;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+.taskColumn {
+    flex: 1;
+    background-color: #e9ecef;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.columnTitle {
+    color: #28a745; /* Green */
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
